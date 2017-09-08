@@ -24,7 +24,7 @@ public class StupidController {
 		Scanner firstScanner;
 		firstScanner = new Scanner(System.in);
 		System.out.println("Please type your favorite food?");
-		String answer = firstScanner.next();
+		String answer = firstScanner.nextLine();
 		System.out.println("Oh, you like to eat " + answer);
 	}
 }
