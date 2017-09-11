@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class StupidController {
 	
+	public StupidController()
+	{
+	}
+	
 	public void start()
 		{
 			System.out.println("What is the meaning of life? ");
 			System.out.println("42.");
-	
+		
 	}
 
 	
